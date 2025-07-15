@@ -1,0 +1,20 @@
+{
+  "name": "playwrightlearning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "regression1": "npx playwright test --grep @regression1 --project=chromium --headed",
+    "ChangePassword": "npx playwright test --grep @Change"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.1"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}

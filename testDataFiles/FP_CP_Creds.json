@@ -1,0 +1,18 @@
+   {
+        "HA":"vppadm2@mailinator.com",
+        "CL":"clivpp2@mailinator.com",
+        "CC":"ccvpp4@mailinator.com",
+        "CG":"cgvpp1@mailinator.com",
+        "RCM":"rcmvpp1@mailinator.com",
+        "pat":"utra@mailinator.com",
+        "new_conf_passwords":"Test@123",
+        "HAid":"1184",
+        "CLid":1,
+        "CCid":1,
+        "CGid":1,
+        "RCMid":"1",
+        "patId":"1217",
+        "insId":"68",
+        "resetPassword":"Test@111"
+
+    }
