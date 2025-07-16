@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "regression1": "npx playwright test --grep @regression1 --project=chromium --headed",
+    "regression2": "npx playwright test --grep @regression1 --project=chromium --reporter=html",
     "ChangePassword": "npx playwright test --grep @Change"
+
   },
   "keywords": [],
   "author": "",
