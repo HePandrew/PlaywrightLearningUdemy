@@ -1,3 +1,5 @@
+const person = require('./basic7')
+
 let day = 'saturday '
 console.log(day.length)
 let subDay = day.slice(0,5)
@@ -25,3 +27,7 @@ while(value!==-1){
     count++
 }
 console.log(count)
+
+//calling the basic7 fullName in this class
+let person3 = new person("Hephzi", "Mary")
+console.log(person3.fullName())
