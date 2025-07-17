@@ -36,7 +36,7 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    headless: false,
+    headless: true,
     baseURL: 'https://connect.cura.cx',
     //browserName: 'firefox',
     //storageState: 'storageState.json',
@@ -44,6 +44,7 @@ export default defineConfig({
     
   },
   //globalSetup:require.resolve('./setup/global-setup.js'),
+  globalTeardown:'./setup/global-teardown.js',
 
   /* Configure projects for major browsers */
   projects: [
