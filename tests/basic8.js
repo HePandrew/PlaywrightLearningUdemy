@@ -7,8 +7,17 @@ const Person = require("./basic7")
 
 class Pet extends Person{
 
+    get location()
+    {
+        return "Cuba"
+    }
     construtor(firstName,lastName)
     {
-        //calling parent class constructor
+        //calling parent class constructor suing super keyword
+        super(firstName, lastName)
+
     }
 }
+let pet = new Pet("Sam","Raj")
+pet.fullName()
+console.log(pet.location())

@@ -6,7 +6,7 @@ const inputs = require('../testDataFiles/HA011Data.json');
 test('Web login username field symbol validation- HA011', async ({page})=>
     {
         const LoginClass = new login(page);
-        LoginClass.PageURL();
+        await page.goto('/#/authentication/signin');
         await page.waitForLoadState('networkidle');
 
         for(const input of inputs){

@@ -8,7 +8,7 @@ const passwordLabel = " Password (Forgot?) ";
 test('@regression1 Web login field names', async ({page})=>
     {
         const LoginClass = new login(page);
-        await LoginClass.PageURL();
+        await page.goto('/#/authentication/signin');
         await expect(page.locator('.form-label.mt-4')).toHaveText(userLabel);
         await expect(page.locator('.form-label.mt-2')).toHaveText(passwordLabel);
     })

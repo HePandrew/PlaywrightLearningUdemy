@@ -39,12 +39,12 @@ export default defineConfig({
     headless: true,
     baseURL: 'https://connect.cura.cx',
     //browserName: 'firefox',
-    //storageState: 'storageState.json',
+    storageState: 'storageState.json',
     browserName: 'chromium'
     
   },
-  //globalSetup:require.resolve('./setup/global-setup.js'),
-  globalTeardown:'./setup/global-teardown.js',
+  globalSetup:require.resolve('./setup/global-setup.js'),
+  //globalTeardown:'./setup/global-teardown.js',
 
   /* Configure projects for major browsers */
   projects: [

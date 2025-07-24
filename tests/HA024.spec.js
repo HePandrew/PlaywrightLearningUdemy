@@ -5,12 +5,12 @@ test('@regression1 Forgot> Wrong email - HA024', async ({page})=>
     {
     const Email = "user@admin.in";    
     const LoginClass = new login(page);
-    LoginClass.PageURL();
+    await page.goto('/#/authentication/signin');
     await LoginClass.forgotLink.click();
     await LoginClass.forgotEmail.fill(Email);
-    await LoginClass.SendPassword.click();
+    await LoginClass.sendPassword.click();
     await expect(page.locator('#swal2-title')).toHaveText('Error');
     await expect(page.locator('#swal2-html-container')).toHaveText('The Email does not exist, Please Check!');
     await page.locator("[type='button']").nth(1).click();
-    await LoginClass.SendPassword.waitFor();
+    await LoginClass.sendPassword.waitFor();
     })

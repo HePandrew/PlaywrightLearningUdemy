@@ -9,7 +9,7 @@ test('@regression1 mobile valid login - HA015', async ({page})=>
     const Password = input.password.HA;
 
     const LoginClass = new login(page);
-    await LoginClass.PageURL();
+    await page.goto('/#/authentication/signin');
     await LoginClass.MobileSrn();
     await LoginClass.MobileLogin(CountryCode, Mobile, Password);
 

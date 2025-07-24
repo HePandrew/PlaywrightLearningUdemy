@@ -6,7 +6,7 @@ test('@regression1 Wrong Username&Password case - HA001', async ({page})=>
     const Email = "andrew@gmail.com";
     const Password = "Test";
     const LoginClass = new login(page);
-    LoginClass.PageURL();
+    await page.goto('/#/authentication/signin');
     LoginClass.EmailLogin(Email, Password);
     await page.waitForLoadState('networkidle');
     await expect(page.locator('#swal2-title')).toHaveText('Error');

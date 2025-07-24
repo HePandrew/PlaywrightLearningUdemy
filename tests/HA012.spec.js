@@ -8,9 +8,9 @@ test('@regression1 Wrong Mobile & Password - HA012', async ({page})=>
     const Password = "Test";
 
     const LoginClass = new login(page);
-    LoginClass.PageURL();
-    LoginClass.MobileSrn();
-    LoginClass.MobileLogin(CountryCode, Mobile, Password);
+    await page.goto('/#/authentication/signin');
+    await LoginClass.MobileSrn();
+    await LoginClass.MobileLogin(CountryCode, Mobile, Password);
     await page.waitForLoadState('networkidle');
     await expect(page.locator('#swal2-title')).toHaveText('Error');
     await expect(page.locator('#swal2-html-container')).toHaveText('Something went wrong: UserName Not Found');

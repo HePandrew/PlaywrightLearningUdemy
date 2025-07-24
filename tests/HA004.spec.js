@@ -13,7 +13,7 @@ test('@regression1 Hospital Admin Correct Username & Password case - HA004', asy
 
     const LoginClass = new login(page);
     const headerClass = new HA_header(page);
-    LoginClass.PageURL();
+    await page.goto('/#/authentication/signin');
     LoginClass.EmailLogin(Email, Password);
     await page.waitForLoadState('networkidle');
     await expect(headerClass.profileMail).toHaveText(Email);

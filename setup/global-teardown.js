@@ -3,7 +3,7 @@ const { execSync } = require('child_process');
 
 module.exports = async () => {
   const reportFolder = 'playwright-report';
-  const zipFile = 'playwright-report.zip';
+  const zipFile = 'playwright_report.zip';
 
   // Wait until the report folder is created (max 10 seconds)
   for (let i = 0; i < 10; i++) {

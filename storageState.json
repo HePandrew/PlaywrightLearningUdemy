@@ -1,0 +1,66 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "https://connect.cura.cx",
+      "localStorage": [
+        {
+          "name": "check_expiry_info",
+          "value": "false"
+        },
+        {
+          "name": "ng2Idle.main.expiry",
+          "value": "1753274858287"
+        },
+        {
+          "name": "product_info",
+          "value": "Hive:assets/resources/Images/Hive_Fav_Icon.png:assets/resources/images/logo-light.png"
+        },
+        {
+          "name": "userInfo",
+          "value": "{\"Id\":1184,\"PatientId\":null,\"InstitutionName\":\"VPP hospital\",\"IsActive\":1,\"Department_Name\":\"Administration\",\"DisplayDepartment_Name\":null,\"INSTITUTION_ID\":68,\"INSTITUTION_CODE\":null,\"FirstName\":\"velu\",\"MiddleName\":\"\",\"LastName\":\"pillai\",\"FullName\":\"velu, pillai\",\"EMPLOYEMENTNO\":\"\",\"EMAILID\":\"xavierandrew16@gmail.com\",\"GOOGLE_EMAILID\":null,\"FB_EMAILID\":null,\"appleUserID\":null,\"ApprovalFlag\":null,\"Patient_Type\":1,\"DEPARTMENT_ID\":165,\"MOBILE_NO\":\"+91~9566677794\",\"Photo\":\"\",\"FileName\":\"\",\"Photo_Fullpath\":\"C:\\\\MyCortex\\\\MyCortexProdApi\\\\\",\"UserName\":\"Hospital Admin\",\"UserType_Id\":3,\"TITLE_ID\":null,\"HEALTH_LICENSE\":\"\",\"FILE_NAME\":null,\"FILETYPE\":null,\"FILE_FULLPATH\":null,\"UPLOAD_FILENAME\":null,\"GENDER_ID\":0,\"NATIONALITY_ID\":0,\"ETHINICGROUP_ID\":0,\"DOB\":null,\"HOME_AREACODE\":\"\",\"HOME_PHONENO\":\"\",\"MOBIL_AREACODE\":\"\",\"POSTEL_ZIPCODE\":\"\",\"EMR_AVAILABILITY\":null,\"ADDRESS1\":\"\",\"ADDRESS2\":\"\",\"ADDRESS3\":\"\",\"Memberid\":null,\"PolicyNumber\":null,\"RefernceId\":null,\"ExpiryDate\":null,\"PayorId\":null,\"PlanId\":null,\"PayorName\":null,\"PlanName\":null,\"COUNTRY_ID\":0,\"STATE_ID\":0,\"CITY_ID\":0,\"MARITALSTATUS_ID\":0,\"BLOODGROUP_ID\":0,\"PATIENTNO\":\"1\",\"INSURANCEID\":\"\",\"MNR_NO\":\"2409000001\",\"NATIONALID\":\"\",\"UID\":null,\"Type\":null,\"SMOKER\":null,\"DIABETIC\":null,\"HYPERTENSION\":null,\"CHOLESTEROL\":null,\"ISACTIVE\":null,\"CREATED_BY\":null,\"User_Id\":null,\"GroupName\":null,\"GENDER_NAME\":\"\",\"DisplayGENDER_NAME\":null,\"Nationality\":\"\",\"CREATED_DT\":null,\"COUNTRY_NAME\":null,\"EthnicGroup\":\"\",\"StateName\":null,\"LocationName\":null,\"Institution\":null,\"LanguageKnown\":null,\"Createdby_ShortName\":null,\"CURRENTLY_TAKEMEDICINE\":2,\"PAST_MEDICALHISTORY\":2,\"FAMILYHEALTH_PROBLEMHISTORY\":2,\"VACCINATIONS\":2,\"DIETDESCRIBE_ID\":0,\"EXCERCISE_SCHEDULEID\":0,\"EXCERCISE_TEXT\":\"\",\"ALERGYSUBSTANCE_ID\":0,\"ALERGYSUBSTANCE_TEXT\":\"\",\"SMOKESUBSTANCE_ID\":0,\"SMOKESUBSTANCE_TEXT\":\"\",\"ALCOHALSUBSTANCE_ID\":0,\"ALCOHALSUBSTANCE_TEXT\":\"\",\"CAFFEINATED_BEVERAGESID\":0,\"CAFFEINATEDBEVERAGES_TEXT\":\"\",\"EMERG_CONT_FIRSTNAME\":\"\",\"EMERG_CONT_MIDDLENAME\":\"\",\"EMERG_CONT_LASTNAME\":\"\",\"EMERG_CONT_RELATIONSHIP_ID\":0,\"LoginTime\":null,\"Appointment_Module_Id\":null,\"TimeZone_Id\":null,\"MaritalStatus\":\"\",\"BLOODGROUP_NAME\":\"\",\"RelationShipName\":\"\",\"DietDescribe\":\"\",\"AlergySubstance\":\"\",\"EXCERCISE_SCHEDULE\":\"\",\"SMOKESUBSTANCE\":\"\",\"ALCOHALSUBSTANCE\":\"\",\"CAFFEINATED_BEVERAGES\":\"\",\"ChronicCondition\":null,\"MenuType\":0,\"flag\":null,\"Group_Id\":null,\"PASSWORD\":null,\"Diabetic_Option\":null,\"HyperTension_Option\":null,\"Cholesterol_Option\":null,\"DOB_Encrypt\":\"\",\"Emergency_MobileNo\":\"\",\"Protocol_Id\":null,\"ProtocolName\":null,\"Approval_flag\":1,\"Modified_By\":null,\"webexAccessToken\":null,\"GroupTypeList\":null,\"SelectedGroupList\":null,\"InstitutionList\":null,\"SelectedInstitutionList\":null,\"LanguageList\":null,\"SelectedLanguageList\":null,\"ChronicConditionList\":null,\"SelectedChronicConnditionList\":null,\"AddMedicines\":null,\"AddHealthProblem\":null,\"AddMedicalHistory\":null,\"ProfileDocuments\":null,\"PHOTOBLOB_LOW\":null,\"PHOTOBLOB_THUMB\":null,\"IS_MASTER\":false,\"TAB_PIN\":null,\"TAB_PHOTO\":null,\"TAB_FINGERPRINT\":null,\"MrnPrefix\":null,\"NationalPhotoFullpath\":null,\"NationalPhotoFilename\":null,\"InsurancePhotoFullpath\":null,\"InsurancePhotoFilename\":null,\"NationalPhoto\":null,\"InsurancePhoto\":null,\"Unitgroup_preference\":1,\"Language_preference\":1,\"Payment_preference\":1,\"Insurance_Preference\":0,\"UserLanguage_Preference\":0,\"HiveType\":0,\"PhotoBlob\":null,\"NationalPhotoBlob\":null,\"InsurancePhotoBlob\":null,\"CertificateBlob\":null,\"Certificate_FileName\":null,\"FileType\":null,\"Clinician_Bio\":null,\"ISMOBILENO_VERIFIED\":true}"
+        },
+        {
+          "name": "webidleinfo",
+          "value": "[{\"Institution_Id\":68,\"ConfigCode\":\"WEBIDLETIME\",\"ConfigInfo\":\"Auto logout user time if idle\",\"ConfigValue\":\"6000\",\"ConfigTypeDefinition\":\"Number\"}]"
+        },
+        {
+          "name": "Login_Session_Id",
+          "value": "\"5a593037-3b58-4ffe-86ff-439d325bf5d1\""
+        },
+        {
+          "name": "tokenInfo",
+          "value": "{\"access_token\":\"AFJtSUz_SrSh8Yfc8W1su2GWzs7F4HPrvLvpTeZWFJuwcPxIT7mdK-LK7y68kj0aEJ0eSgvMFL7kC8RcQADQjyIzWZVr8zCnXmxPzLUBokk3qJnQVoj16qgIxHJmTehbiTfvfull9wMNPTA780h6Qw9F49st3b30y4aMARxz-7Zvca1W6vaVeBaQZrSNNZI75NM-XHsoQtSHTenHsj75D8GGLXNAxr3d4isnrbJUI20ZkYRXIidBBklmEQ4XKOah6qc5jVqM-FiX6UAnwkSEtwp0rTH0AdxJwQv4gXMETDJMXyVyFXH4iQZFZeqP9TrK\",\"token_type\":\"bearer\",\"expires_in\":604799,\"refresh_token\":\"nwp99l1TgSaCR69slxKdpKDUMAgKCMu1s_Z4A3rRM8sTGSvCVl3gjlywRSZesRJTM8-dvBzJiyMbSCNpnUQirHUnM_5vsXW6mzTwNKxEpw8BrC2AaOO132Wg4aJ8X4HBAQOZCxsNlWGrx3EkktsSZk2W8pnkJ_hPvOQ4MoVgAJz7TjMADeZrKBL5iidvgKbb6V4F9I8K9QDK8dpu4q4oem6L7GS0-zV_lVS4V2ICG6nICk5xxCU7HATHTGkoD6MVFlTkpzpYymE7sEzgpskntC1mzLiG1tBvO4EhyAeY9tFtsVYI9nePDMfwWwxLzSSz\"}"
+        },
+        {
+          "name": "Is_Webex",
+          "value": "2"
+        },
+        {
+          "name": "Is_Mob_Num_Verified",
+          "value": "1"
+        },
+        {
+          "name": "selected_patient",
+          "value": "0"
+        },
+        {
+          "name": "Meeting_Url",
+          "value": "https://meet.cura.cx:3030/"
+        },
+        {
+          "name": "fcmsgid",
+          "value": "\"14056602418\""
+        },
+        {
+          "name": "ng2Idle.main.idling",
+          "value": "false"
+        },
+        {
+          "name": "active_page",
+          "value": "/dashboard/subscription"
+        }
+      ]
+    }
+  ]
+}

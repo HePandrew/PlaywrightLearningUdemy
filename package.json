@@ -5,8 +5,10 @@
   "scripts": {
     "regression1": "npx playwright test --grep @regression1 --project=chromium --headed",
     "reg2": "npx playwright test HA010.spec.js",
-    "ChangePassword": "npx playwright test --grep @Change"
-
+    "ChangePassword": "npx playwright test --grep @Change",
+    "htmlToPdf":"node setup/htmlPdf.js",
+    "mail":"node setup/sendEmail.js",
+    "reg3":"npm run regression1 && npm run htmlToPdf && npm run mail"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +19,7 @@
     "@types/node": "^22.13.1"
   },
   "dependencies": {
-    "exceljs": "^4.4.0"
+    "exceljs": "^4.4.0",
+    "nodemailer": "^7.0.5"
   }
 }
